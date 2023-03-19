@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:royalblue;
+        }
+        h1:hover{
+            color:skyblue;
+            background-color:seagreen;
+            margin:50px;
+            padding:50px;
+            font-size:50px;
+            font-weight:700;
+        }
+        .middle-person:focus{
+            color:blue;
+            font-weight:700;
+        }
+        a:visited{
+            color:red;
+        }
+        /* li:first-child{
+            color:chocolate;
+        }
+        li:last-child{
+            color:cornflowerblue;
+        } */
+        /* li:nth-child(n){
+            color:crimson;
+        } */
+        /* li:nth-child(2n){
+            color:crimson;
+        } */
+        li:nth-child(2n+1){
+            background-color: darkgray;
+        }
+        h3::before{
+            content:'Hello ';
+        }
+        /* h3::after{
+            content:' gelo';
+            background-color:darkkhaki;
+            font-size:39px;
+        } */
+        .special::after{
+            content:' gelo';
+            background-color:darkkhaki;
+            font-size:39px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person"type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">google e jao</a>
+    <a href="https://web.programming-hero.com/home/">programming-herote jao</a>
+    <a href="https://www.searchenginejournal.com/link-building-new-website/307491/">never visited</a>
+    <br>
+    <!-- h3*6{middle size hedder-$} -->
+    <h3>middle size hedder-1</h3>
+    <h3 class="special">middle size hedder-2</h3>
+    <h3>middle size hedder-3</h3>
+    <h3 class="special">middle size hedder-4</h3>
+    <h3>middle size hedder-5</h3>
+    <h3 class="special">middle size hedder-6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Salia</li>
+        <li>Jalaia</li>
+        <li>Saraia</li>
+        <li>maria</li>
+        <li>faria</li>
+        <li>jaraia</li>
+    </ul>
+</body>
+</html>

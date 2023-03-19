@@ -1,0 +1,139 @@
+.header{
+    background-image: url(donation13.jpg);
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+*{
+    margin:0;
+}
+.header{
+    color:white;
+    text-align: center;
+}
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 60px;
+}
+.Money{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+}
+.colour{
+    color:dimgray;
+}
+.experience-item{
+    width: 10%;
+    height:70px;
+    margin-left: 1%;
+    text-align: center;
+    background-color:beige;
+    border-radius: 0%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.border{
+    border: 1px solid tomato;
+}
+.color-change{
+    color:darkgray;
+    text-align: center;
+}
+#position{
+    margin-left: 45%;
+}
+.positionset{
+    margin-left: 30%;
+    margin-right: 30%;
+    color:darkgray;
+}
+.item{
+    width: 40%;
+    margin-left: 1%;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    border-radius: 0px;
+    box-shadow: 10px 10px 30px gray;
+    
+}
+.container{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+#Blue{
+    background-color:cornflowerblue;
+}
+#pink{
+    background-color:indianred;
+}
+#Orange{
+    background-color:coral;
+}
+h5{
+    font-size: 25px;
+}
+.halfwidth{
+    width: 50%;
+    margin-right: 40px;
+}
+.halfwidth img{
+    width: 90%;
+    height:110%
+}
+.secondcontainer{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+.Thirdcontainer{
+    width: 50%;
+    height:170px;
+    margin-left: 400px;
+    margin-right:400px;
+    margin-bottom:200px;
+    margin-top:40px;
+    padding-top: 50px;
+    padding-bottom:20px;
+    text-align: center;
+    background-color:indianred;
+    border-radius: 0%;
+}
+.give-color{
+    background-color:black;
+    color:white;
+}
+.design{
+    background-color: black;
+    text-align: center;
+    padding:40px;
+}
+.White{
+    color:beige;
+}
+.Merun{
+    color:coral;
+    font-size:20px;
+    font-family: 'Lobster', 'cursive','Poppins', sans-serif;
+}
